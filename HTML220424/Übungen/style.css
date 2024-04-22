@@ -1,0 +1,27 @@
+.Para{
+    color: blue;
+}
+ 
+ 
+.H1{
+    color: goldenrod;
+}
+ 
+#h2{
+    color:brown;
+}
+
+#container {
+    margin: 0 auto;
+    border: 3px red solid;
+    font-size: 25px;
+    background-color: green;
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+#para {
+    padding-top: 10px;
+    color: aqua;
+}

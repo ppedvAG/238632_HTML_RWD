@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        table, th, td {
+            border: 2px solid #000;
+            border-collapse: collapse;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Willkommen zur Homepage!</h1>
+
+    <nav>
+        <h1>Zu welcher Seite willst du springen?</h1>
+        <a href="index.html">Index</a>
+    </nav>
+
+    <h1>Überschrift 1</h1>
+    <section>
+        <h1>Überschrift 1</h1>
+        <section>
+            <h1>Überschrift 1</h1>
+        </section>
+    </section>
+
+    <ol start="100" reversed>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ul>
+
+    <!-- Tabelle: -->
+    <table>
+        <tr>
+            <th>Überschrift 1</th>
+            <th>Überschrift 2</th>
+        </tr>
+        <tr>
+            <td>Hallo</td>
+            <td>Welt!</td>
+        </tr>
+    </table>
+
+    <img src="BMW.jpg" height="200" width="300" alt="Das Bild hat nicht geladen">
+
+    <br><br>
+
+    <!-- Datalist -->
+    <input type="text" list="farben" autocomplete="on">
+    <datalist id="farben">
+        <option value="Rot">red</option>
+        <option value="Grün">green</option>
+        <option value="Blau">blue</option>
+    </datalist>
+    <br><br>
+    <!-- Wenn keine Aktion durchgeführt wird, dann kommt eine Raute rein -->
+    <form action="#" method="post">
+        <label for="vorname">Vorname:</label>
+        <input type="text" id="vorname"><br><br>
+
+        <label for="nachname">Nachname:</label>
+        <input type="text" id="nachname">
+
+        <input type="submit" value="Absenden!">
+        <input type="reset" value="Zurücksetzen!">
+    </form>
+
+    <h1>Video</h1>
+    <video width="320" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+    </video>
+
+    <p style="font-size: 30px; font-style: italic;">Inline-Style</p>
+</body>
+</html>
